@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border {
+    border: 3px solid blue;
+}
+
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.borders {
+    border-radius: 8px 8px 0px 8px;
+}
+
+.borderr {
+    border-radius: 8px 8px 8px 0px;
+}
+
+.borderimg {
+    border: 3px solid #00e700;
+}
